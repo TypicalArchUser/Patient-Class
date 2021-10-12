@@ -2,7 +2,7 @@ import java.io.*;
 public class PatientManager{
 
 int cnt = 0;
-Patient[] patient = new patient[10];
+Patient[] patient = new Patient[10];
 
 PatientManager()throws Exception
 {
@@ -15,8 +15,8 @@ PatientManager()throws Exception
    String [] field = line.split("#");
    int age = Integer.parseInt(field[1]);
    int idno = Integer.parseInt(field[2]);
-   patient[cnt]  = new Patient(field[0], age , idno)
-   System.out.println("Patient age and id no : "+person[cnt])
+   Patient[cnt]  = new Patient(field[0], age , idno)
+   System.out.println("Patient age and id no : "+Patient[cnt])
    
    line = inFile.readLine();
    cnt++;
