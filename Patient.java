@@ -44,7 +44,7 @@ return idno;
 }
 
 public String toString(){
-String s = ("Name : " +name "Age : " + age "Patient ID NO :" +idno);
+String s = ("Name : " + name + "Age : " + age + "Patient ID NO :" + idno +);
 return s;
 }
 
